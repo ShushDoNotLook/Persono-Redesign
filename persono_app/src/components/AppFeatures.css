@@ -1,0 +1,155 @@
+.app-features {
+  margin-top: 40px;
+  text-align: center;
+  padding-bottom: 4px;
+}
+
+text {
+  font-size: 4rem;
+}
+
+.app-features h2 {
+  font-size: 3rem;
+  font-weight: bold;
+  color: #333;
+}
+
+.app-features p1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.2rem;
+  font-style: italic;
+  margin-top: 0;
+  position: relative;
+}
+
+.feature-text-bold {
+  font-weight: bold;
+  font-size: 44px !important;
+  color: #4E98F1;
+}
+
+.feature-text span {
+  font-size: 22px;
+}
+
+.features-layout {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+}
+
+.tab-buttons-bar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.tab-buttons {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+.tab-buttons button {
+  cursor: pointer;
+  padding: 12px 24px;
+  background-color: #3798F8;
+  color: white;
+  border: 2px solid transparent;
+  border-radius: 8px;
+  font-weight: bold;
+  transition: background-color 0.3s, box-shadow 0.3s, border-color 0.3s;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.tab-buttons button:hover,
+.tab-buttons button:focus {
+  background-color: #1E7CE7;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  border-color: #166AB8;
+}
+
+.tab-buttons button.active {
+  background-color: #e7e7e7;
+  color: #007bff;
+  box-shadow: none;
+}
+
+
+.image-description-container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  box-sizing: border-box;
+  height: 638px;
+}
+
+.content-centering {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+.app-feature-image {
+  max-width: 500px;
+  height: auto;
+  max-height: 100%;
+}
+
+.feature-description {
+  max-width: 500px;
+}
+
+@media (max-width: 768px) {
+  text {
+    font-size: 2rem;
+  }
+
+  .app-feature-image {
+    max-width: 400px;
+    height: auto;
+    max-height: 100%;
+    margin-top: -300px;
+  }
+
+  .app-features h2,
+  .text-container,
+  .feature-description {
+    font-size: 1.5rem;
+  }
+
+  .app-features p1 {
+    font-size: 1rem;
+  }
+
+  .tab-buttons button {
+    padding: 5px;
+    font-size: 1rem;
+  }
+
+  .content-centering,
+  .image-description-container {
+    background-color: white;
+    margin-top: 200px;
+    flex-direction: column;
+    padding: 10px;
+    width: 100%;
+    margin-bottom: 100px;
+  }
+
+  .feature-text-bold {
+    font-weight: bold;
+    font-size: 26px !important;
+    color: #4E98F1;
+  }
+  
+  .feature-text span {
+    font-size: 16px;
+  }
+}

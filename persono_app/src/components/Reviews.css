@@ -1,0 +1,39 @@
+.reviews-carousel {
+  padding: 40px;
+  margin: 50px auto;
+  padding-bottom: 60px;
+  max-width: 800px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  border-radius: 15px;
+  background: #ffffff;
+  text-align: center;
+}
+
+.slick-list,
+.slick-track {
+  height: auto;
+}
+
+.slick-dots {
+  display: none;
+}
+
+.slick-slide p {
+  font-size: 1.5rem;
+  color: #333;
+  padding: 20px;
+  line-height: 1.6;
+  margin: 0 auto;
+  max-width: 740px;
+}
+
+@media (max-width: 768px) {
+  .reviews-carousel {
+    max-width: 90%;
+    padding: 60px;
+  }
+
+  .slick-slide p {
+    font-size: 1.2rem;
+  }
+}

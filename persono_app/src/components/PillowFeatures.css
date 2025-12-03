@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap');
+
+.pillow-features {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.pillow-features h2 {
+  font-size: 3rem;
+  font-weight: bold;
+  color: #333;
+  margin-top: 25px;
+}
+
+.pillow-features p1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.2rem;
+  font-style: italic;
+  margin-top: 0;
+  position: relative;
+}
+
+.features-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-left: -320px;
+}
+
+.pillow-image {
+  max-width: 1000px;
+  height: auto;
+}
+
+.descriptions-container {
+  display: flex;
+  flex-direction: column;
+  margin-left: -60px;
+  position: relative;
+  top: -60px;
+}
+
+.feature-description {
+  margin-top: 75px;
+  text-align: left;
+  max-width: 220px;
+  position: relative;
+}
+
+.feature-description h3 {
+  font-size: 1.2rem;
+  position: relative;
+  padding-bottom: 6px;
+  margin-bottom: 12px;
+}
+
+.feature-description h3::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 1px;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.feature-description::before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  right: 100%;
+  margin-right: 15px;
+  margin-top: -5px;
+  width: 0;
+  height: 0;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  border-right: 10px solid #333;
+}
+
+@media (max-width: 768px) {
+  .features-container {
+    display: flex;
+    justify-content: center !important;
+    flex-wrap: wrap;
+    margin: 0;
+  }
+  
+  .pillow-features p1 {
+    font-size: 1rem;
+  }
+
+  .descriptions-container {
+    margin-top: 20px !important;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    position: relative;
+  }
+
+  .feature-description {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    text-align: center;
+    max-width: 300px !important;
+    font-size: 1rem !important;
+  }
+
+  .feature-description::before {
+    content: none !important;
+  }
+
+  .pillow-image {
+    max-width: 100%;
+  }
+}

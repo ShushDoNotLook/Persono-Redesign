@@ -1,0 +1,136 @@
+.tracker-features {
+  text-align: center;
+  background-color: #F7E9DD;
+  padding: 20px;
+  width: 100%;
+  box-sizing: border-box;
+  margin-top: -20px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.tracker-features h2 {
+  font-size: 3rem;
+  font-weight: bold;
+  color: #4E98F1;
+}
+
+.tracker-features p1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.2rem;
+  font-style: italic;
+  margin-top: 0;
+  position: relative;
+}
+
+.text-container p2 {
+  color: #4E98F1;
+}
+
+.comparison-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.text-container {
+  text-align: left;
+  font-size: 3rem;
+  font-weight: bold;
+  color: #333;
+  max-width: 350px;
+}
+
+.images-container {
+  display: flex;
+  align-items: center;
+  margin-left: -200px;
+}
+
+.tracker-image {
+  max-width: 750px;
+  height: auto;
+  margin-right: -200px;
+}
+
+.quarter-image {
+  max-width: 300px;
+  height: auto;
+}
+
+.comparison-description {
+  max-width: 200px;
+  text-align: left;
+  margin-right: -400px;
+}
+
+.feature {
+  margin-top: 20px;
+}
+
+.icons-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+  margin-top: -40px;
+  margin-bottom: 40px;
+}
+
+.icon-group {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.icon-group p {
+  margin-top: 10px;
+  font-size: 1.1rem;
+  max-width: 260px;
+}
+
+.feature-icon {
+  max-width: 150px;
+  height: auto;
+}
+
+@media (max-width: 768px) {
+  .comparison-container,
+  .images-container,
+  .icons-container {
+    flex-direction: column;
+    align-items: center;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .tracker-features p1 {
+    font-size: 1rem;
+  }
+
+  .tracker-image {
+    max-width: 100%;
+    margin-right: 0;
+  }
+
+  .quarter-image {
+    max-width: 50%;
+    margin-right: 0;
+    margin-bottom: 100px;
+    margin-top: -60px;
+  }
+
+  .comparison-description,
+  .text-container {
+    max-width: 100%;
+    text-align: center;
+    margin-right: 0;
+  }
+
+  .icon-group {
+    gap: 50px;
+    max-width: 100%;
+  }
+}

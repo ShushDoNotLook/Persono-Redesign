@@ -1,0 +1,50 @@
+.unique-component {
+  text-align: center;
+  background-color: #F7E9DD;
+  padding: 20px;
+  padding-top: 50px;
+  margin-top: -44px;
+  margin-bottom: 28px;
+}
+
+.unique-component h2 {
+  font-size: 3rem;
+  font-weight: bold;
+  color: #4E98F1;
+}
+
+.unique-component p {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.2rem;
+  font-style: italic;
+  margin-top: 0;
+  position: relative;
+}
+
+.unique-chart {
+  width: 100%;
+  max-width: 1000px;
+  margin: 40px auto;
+  display: block;
+  border-radius: 8px;
+}
+
+@media (max-width: 768px) {
+  .unique-component {
+    padding: 15px;
+    margin-top: -44px;
+  }
+
+  .unique-component h2 {
+    font-size: 2rem;
+  }
+
+  .unique-component p {
+    font-size: 1rem;
+  }
+
+  .unique-chart {
+    margin: 20px auto;
+    max-width: 100%;
+  }
+}
