@@ -23,7 +23,7 @@ function App() {
   };
 
   return (
-    <Router>
+    <Router basename="/Persono-Redesign">
       <div>
         <Navbar toggleWaitlist={toggleWaitlist} />
         <Routes>
